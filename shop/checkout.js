@@ -1,6 +1,6 @@
 // One payment identity, even when the request is retried.
 function retryCheckout(order, payments) {
-  const key = payments.newAttemptKey();
+  const key = order.paymentKey;
   return payments.charge(order.total, key);
 }
 
