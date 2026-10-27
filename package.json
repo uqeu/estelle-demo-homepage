@@ -1,0 +1,9 @@
+{
+  "name": "estelle-demo-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The sample storefront behind the demo on fatelabs.ca. Every session on the home page happens in this repository.",
+  "license": "MIT",
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" }
+}
